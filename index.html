@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>
+            AI Object Finder
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background = 'css-gradient.png'>
+        <center>
+            <h1 class="btn btn-warning heading">
+                AI Object Finder
+            </h1>
+            <br><br><br>
+            <label>Enter your Object Name:</label>
+            <br><br>
+            <input class="form-control" placeholder = 'Enter you object name' type="text" id="input">
+            <br><br>
+            <button onclick="start()" class="btn btn-warning" id="start">Start</button>
+            <br><br>
+            <h3 class="btn btn-warning" id="status"></h3>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="btn btn-info" id="obj_mentioned"></h3>&nbsp;&nbsp;&nbsp;&nbsp;
+        </center>
+    </body>
+    <script src="main.js"></script>
+</html>
